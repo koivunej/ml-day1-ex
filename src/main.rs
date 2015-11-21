@@ -37,6 +37,8 @@ struct Example {
     pixels: Vec<i32>
 }
 
+// Result<T, E> contains either value T or error E
+// io::Result<T> is shorthand or type alias for Result<T, IOError>
 fn read_file(path: &String) -> std::io::Result<Vec<Example>> {
     let f = try!(File::open(path));
 
