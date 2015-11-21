@@ -1,0 +1,7 @@
+[package]
+name = "day1-digits-rust"
+version = "0.1.0"
+authors = ["Joonas Koivunen <joonas.koivunen@gmail.com>"]
+
+[dependencies]
+ord_subset = "1.0.0"
