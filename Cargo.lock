@@ -1,12 +1,4 @@
 [root]
 name = "day1-digits-rust"
 version = "0.1.0"
-dependencies = [
- "ord_subset 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "ord_subset"
-version = "1.0.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
 
